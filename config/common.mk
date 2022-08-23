@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
 
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=log
+    ro.control_privapp_permissions=enforce
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
