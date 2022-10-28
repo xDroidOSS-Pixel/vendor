@@ -24,6 +24,9 @@ include vendor/xdroid/config/xd_packages.mk
 # xd. props
 include vendor/xdroid/config/xd_props.mk
 
+# xd. bootanimation
+include vendor/xdroid/config/bootanimation.mk
+
 # xd. permissions
 PRODUCT_COPY_FILES += \
     vendor/xdroid/config/permissions/xd_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/xd_permissions_system.xml \
