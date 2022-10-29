@@ -10,6 +10,7 @@ endif
 ifeq ($(XDROID_BOOT),720)
 $(warning "xdroidUI: Using xd. Dark Bootanimation 720p")
     PRODUCT_COPY_FILES += vendor/xdroid/bootanimation/xd_boot_720.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+endif
 ifeq ($(XDROID_BOOT),1080)
 $(warning "xdpUI: Using mnmlist Bootanimation 1080p")
     PRODUCT_COPY_FILES += vendor/xdroid/bootanimation/xd_boot_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
