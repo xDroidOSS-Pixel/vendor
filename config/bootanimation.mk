@@ -28,4 +28,3 @@ $(warning "xdroidUI: Using Monet Bootanimation 1440p")
     PRODUCT_COPY_FILES += vendor/xdroid/bootanimation/pe_boot_1440.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 endif
 endif
-endif
